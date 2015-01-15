@@ -48,3 +48,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
+group :production do
+  gem 'mysql2'
+end
