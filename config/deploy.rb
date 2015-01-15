@@ -20,7 +20,7 @@ set :rvm_ruby_string, 'ruby-2.0.0-p598'
 require 'rvm/capistrano'
 
 # file paths
-set :repository,  "https://jasinski@utfpr.git.cloudforge.com/depot.git" 
+set :repository,  "https://github.com/ricardo-jasinski/depot.git" 
 set :deploy_to, "/home/#{user}/work/#{application}" 
 
 # distribute your applications across servers (the instructions below put them

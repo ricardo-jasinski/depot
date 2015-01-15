@@ -25,5 +25,5 @@ production:
   database: depot_production
   pool: 5
   username: root
-  password: 123456
+  password: 123
   host: localhost
